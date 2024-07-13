@@ -7,7 +7,7 @@ router.get('/', (req, res) => {
 })
 
 router.get('/webhook', (req, res) => {
-    const VERIFY_TOKEN = 'your_verify_token';
+    const VERIFY_TOKEN = "EDasncksnlc12a";
     const mode = req.query['hub.mode'];
     const token = req.query['hub.verify_token'];
     const challenge = req.query['hub.challenge'];
